@@ -6,6 +6,7 @@ class TweetsController < ApplicationController
     @tweet = Tweet.new
   end
   def create
+    logger.debug "-------"
     @tweet = Tweet.new(message: params[:tweet][:message], tdate: Time.current)
    if @tweet.save
      flash[:notice] = '1レコード追加しました'

@@ -1,0 +1,35 @@
+#page {
+    width: 980px;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color:#bbffcc;
+    border-bottom: dashed 3px #0055aa;
+}
+
+#pageBody {
+    width: 720px;
+    float: left;
+}
+
+#pageSub {
+    width: 220px;
+    float: right;
+}
+
+#pageFooter {
+    border-top: solid 1px #55aaCC;
+    clear: both;
+    text-align: center;
+}
+
+.img-right {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
